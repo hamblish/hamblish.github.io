@@ -1,0 +1,14 @@
+@media (min-width: 32.5em) {
+    #profile_img{
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    header{
+        text-align: left;
+    }
+    footer{
+        font-size: 1.25em;
+    }
+}

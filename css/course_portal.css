@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+    font-family:'Lobster', cursive;
+    display: block;
+    line-height: 2.57em;
+  }
+  .modified_date {
+    display: inline;
+  }
+  .copywrite_year {
+    display: inline;
+  }
+  #profile_img {
+    height: 15em;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 5px;
+    box-shadow: 5px 5px 15px 5px #000000;
+  }
+  footer {
+    background-color: #734b5e;
+    color: white;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  footer a {
+    color: white;
+  }
+  header {
+    background-color: #734b5e;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    text-align:center;
+    display:block;
+  }
+  .main_content {
+    padding: 0em 2em 1em 3em;
+  }

@@ -1,12 +1,50 @@
-Example Test HTML File if needed
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-<head>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link type="text/css" rel="stylesheet" href="css/styles.css">
-  <title>Your Name</title>
-</head>
-<body>
- <h1>Your Name</h1>
-</body>
-</html>  
+  <head>
+    <title>Shay Hamblin | WDD 230 | Course Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Web Portal for pages relating to WDD 230 for Shay Hamblin" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/course_portal.css" />
+    <link rel="stylesheet" href="css/medium.css"/>
+    <script defer src="javascript/course_portal/course_portal.js"></script>
+  </head>
+  <body>
+    <main>
+      <header>
+        <img id="profile_img" src="images/Profile.jpg" alt="Image of Site Creator" />
+        <h1>Shay Hamblin</h1>
+      </header>
+      <div class="main_content">
+        <h2>WDD 230: Assignment Portal</h2>
+        <hr />
+        <nav>
+        <ul>
+          <li>Lesson 01: <a href="index.html">Course Assignments Portal</a></li>
+          <li>Lesson 01: <a href="">Design Principles Document</a></li>
+          <li>Lesson 02: <a href="">Website Planning Document - The Weather Site</a></li>
+          <li>Lesson 02: <a href="">Preston Town Page Start</a></li>
+          <li>Lesson 03: <a href="">Preston Town Page</a></li>
+          <li>Lesson 03: <a href="">Responsive Images</a></li>
+          <li>Lesson 04: <a href="">The Gallery Page</a></li>
+          <li>Lesson 04: <a href="">The Storm Center Page</a></li>
+          <li>Lesson 05: <a href="">The Weather Site Home Page</a></li>
+          <li>Lesson 05: <a href="">Preston Weather API</a></li>
+        </ul>
+        </nav>
+      </div>
+    </main>
+    <footer>
+      <p class="copywrite_year">&copy;</p>
+      <p id="current_year" class="copywrite_year"></p>
+      <p class="copywrite_year">| Shay Hamblin | Lehi, UT | <a href="https://www.byui.edu/online/">BYUI Online</a></p>
+      <br />
+      <p class="modified_date">Last Modified Date:</p>
+      <p class="modified_date" id="last_mod"></p>
+    </footer>
+  </body>
+</html>
