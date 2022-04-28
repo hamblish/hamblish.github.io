@@ -51,8 +51,7 @@ nav a {
 nav li {
   list-style-type: none;
   font-family:'Lobster', Helvetica, sans-serif;
-  font-size: 1.70em;
-  margin:5px;
+  font-size: 1.30em;
   /**display:inline-block;**/
 }
 nav a:hover{
