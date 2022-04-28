@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cabin+Condensed|Cabin+Sketch|Coming+Soon|Fascinate+Inline|Lobster|Merriweather|News+Cycle|Poiret+One|Squada+One|Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Macondo&display=swap');
 body {
     background-color: lightblue;
     font-family:'Lobster', cursive;
@@ -39,4 +41,21 @@ body {
   }
   .main_content {
     padding: 0em 2em 1em 3em;
+  }
+
+  h1, h2, h3, h4, h5, h6  {    
+    font-family:'Lobster', cursive;
+    font-size: 2.5em;
+    line-height: 1.1em;
+    color: #090a0a;
+    text-align: center;
+    padding: 10px;
+    } 
+
+  nav {
+    padding: 10px;
+    font-family:'Macondo', cursive;
+    font-size: 1.55em;
+    line-height: 1.5em;
+    color: #090a0a;
   }
