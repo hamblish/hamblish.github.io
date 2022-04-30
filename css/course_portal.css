@@ -21,14 +21,14 @@ body {
   }
   footer {
     background-color: #c99157;
-    color: white;
+    color: black;
     padding: 20px 10px 20px 10px;
     text-align: center;
     border-radius: 20px;
   }
-  footer a {
-    color: #c957c7;
-  }
+/*   footer a {
+    color: white;
+  } */
   header {
     background-color: #c99157;
     color: white;
