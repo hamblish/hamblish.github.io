@@ -60,6 +60,6 @@ body {
     color: #090a0a;
   }
 
-/*   nav a {
-    color: #d70505;
-  } */
+  nav a {
+    color: black;
+  }
