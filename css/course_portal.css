@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif|Cabin+Condensed|Cabin+Sketch|Coming+Soon|Fascinate+Inline|Lobster|Merriweather|News+Cycle|Poiret+One|Squada+One|Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lobster|Macondo&display=swap');
 body {
-    background-color: #ffeab8;
+    background-color: #ffdd8a;
     font-family:'Lobster', cursive;
     display: block;
     line-height: 2.57em;
@@ -60,6 +60,6 @@ body {
     color: #090a0a;
   }
 
-  nav a {
-    color: red;
-  }
+/*   nav a {
+    color: #d70505;
+  } */
