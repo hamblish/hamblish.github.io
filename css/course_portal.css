@@ -26,9 +26,9 @@ body {
     text-align: center;
     border-radius: 20px;
   }
-/*   footer a {
-    color: white;
-  } */
+  footer a {
+    color: black;
+  }
   header {
     background-color: #c99157;
     color: white;
