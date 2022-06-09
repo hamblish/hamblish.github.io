@@ -1,0 +1,60 @@
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.25em;
+    display: grid;
+  }
+  .modified_date {
+    display: inline;
+  }
+  .copywrite_year {
+    display: inline;
+  }
+  footer {
+    background-color: #155f91;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0.5em 0.32em;
+    margin-top: 2em;
+  }
+  footer a {
+    color: white;
+  }
+  header {
+    background-color: #155f91;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+  }
+  main {
+    text-align: center;
+    margin: 0em 1.5em;
+  }
+  main h2 {
+    background-color: #155f91;
+    color: white;
+    border-radius: 20px;
+    padding: 0.5em 0.5em;
+  }
+  img {
+    box-shadow: 5px 5px 10px 5px #000000;
+    max-width: 100%;
+  }
+  .content-1-paragraph,
+  .content-2-paragraph,
+  .content-3-paragraph {
+    margin-top: 2.5em;
+    margin-bottom: 3em;
+  }
+  .content-1-subheading,
+  .content-2-subheading,
+  .content-3-subheading{
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .content-1-heading,
+  .content-2-heading,
+  .content-3-heading{
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
