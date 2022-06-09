@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Sora", sans-serif;
     line-height: 1.25em;
     display: grid;
   }
@@ -10,7 +10,7 @@ body {
     display: inline;
   }
   footer {
-    background-color: #155f91;
+    background-color: #006b00;
     color: white;
     border-radius: 20px;
     text-align: center;
@@ -21,7 +21,7 @@ body {
     color: white;
   }
   header {
-    background-color: #155f91;
+    background-color: #006b00;
     color: white;
     border-radius: 20px;
     text-align: center;
@@ -31,7 +31,7 @@ body {
     margin: 0em 1.5em;
   }
   main h2 {
-    background-color: #155f91;
+    background-color: #006b00;
     color: white;
     border-radius: 20px;
     padding: 0.5em 0.5em;
