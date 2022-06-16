@@ -1,0 +1,18 @@
+main{
+    text-align: center;
+    padding:1rem;
+}
+main hr{
+    margin:2rem auto;
+}
+#font-test-heading{
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5rem;
+}
+#font-test-body{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+#headings-choice, #body-choice, #examples{
+    margin-top: 6rem;
+}
