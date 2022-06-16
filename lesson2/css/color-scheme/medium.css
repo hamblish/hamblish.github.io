@@ -1,0 +1,16 @@
+@media (min-width: 37.5rem){
+    nav ul li{
+        display:inline;
+    }
+    main{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    #color-scheme-content{
+        grid-column: 1/2;
+    }
+    #color-scheme-img{
+        grid-column: 2/3;
+    }
+}

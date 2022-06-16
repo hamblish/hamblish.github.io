@@ -1,0 +1,19 @@
+main{
+    text-align: center;
+    padding:1rem;
+}
+img{
+    max-width: 40rem;
+    width: 90%;
+    border: 5px solid;
+    border-color: black;
+    background-color: black;
+    padding:1px
+}
+main hr{
+    margin:2rem auto;
+}
+#color-scheme-content{
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
