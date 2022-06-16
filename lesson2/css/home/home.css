@@ -1,0 +1,14 @@
+main{
+    text-align: center;
+    padding:1rem;
+}
+main hr{
+    margin: 2rem auto;
+}
+main img{
+    max-width: 20rem;
+    width:75%
+}
+#site-info, #site-picture, #site-purpose{
+    margin-top:6rem;
+}
