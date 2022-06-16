@@ -1,0 +1,63 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+  }
+  .modified_date {
+    display: inline;
+  }
+  .copywrite_year {
+    display: inline;
+  }
+  footer {
+    background-color: #006b00;
+    color: white;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 0.5rem 0.32rem;
+    margin-top: 2rem;
+  }
+  footer a {
+    color: white;
+  }
+  header, nav {
+    background-color: #006b00;
+    color: white;
+    text-align: center;
+  }
+  header{
+      font-size: 1.5rem;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+  }
+  nav{
+      border-bottom-left-radius: 1rem;
+      border-bottom-right-radius: 1rem;
+  }
+  nav ul{
+      list-style-type: none;
+      padding-left: 0%;
+  }
+  nav ul li{
+      padding: 1rem 0rem;
+      font-size: 1.2rem;
+  }
+  nav ul a{
+      box-sizing: border-box;
+      text-decoration: none;
+      color:#ffffff;
+      padding:1rem;
+  }
+  nav ul a:hover{
+      background-color: #8DDCA4;
+      color:#090A0A
+  }
+  hr{
+      max-width: 80%;
+  }
+  header hr{
+      color:#ffffff;
+      background-color: #ffffff;
+  }
+  h1, h2, h3, h4{
+    font-family:"Roboto Slab", serif;
+  }
