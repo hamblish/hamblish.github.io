@@ -1,0 +1,10 @@
+main{
+    text-align: center;
+    padding:1rem;
+}
+main hr{
+    margin:2rem auto;
+}
+#target-audience-1, #target-audience-2, #scenarios{
+    margin-top:6rem;
+}
