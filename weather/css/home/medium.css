@@ -1,9 +1,9 @@
 @media (min-width: 56.3rem){
     main section:hover{
-        box-shadow: 0 0 50px #4a4a4a;
+        box-shadow: 0 0 50px #8DDCA4;
     }
     main section:active{
-        box-shadow: 0 0 50px #000000;
+        box-shadow: 0 0 50px #090A0A;
     }
     #home-preston a, #home-fish a{
         display: grid;
