@@ -1,0 +1,10 @@
+@media (min-width: 79.5rem){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2rem;
+    }
+    #home-preston a, #home-fish a, #home-soda a{
+        display:block;
+    }
+}

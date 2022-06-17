@@ -1,0 +1,38 @@
+main{
+    text-align: center;
+    padding: 1rem;
+    background-color: #C4F0FF;
+    max-width: 100%;
+}
+#home-preston, #home-soda, #home-fish{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color:#75CBE8;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#home-preston img, #home-soda img, #home-fish img{
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+#home-preston h2, #home-soda h2, #home-fish h2{
+    border-bottom: 3px solid #000000;
+    padding:1rem;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+#home-preston h3, #home-soda h3, #home-fish h3{
+    margin-bottom: 2rem;
+}
+#preston-content, #soda-content, #fish-content{
+    margin-bottom: 2rem;
+}
+main a{
+    text-decoration: none;
+    color: black;
+}
+#homewireframes{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

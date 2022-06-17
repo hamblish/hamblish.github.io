@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WeatherEvents Home Page" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <link href="css/all-pages.css" rel="stylesheet" />
+    <link href="css/home/home.css" rel="stylesheet" />
+    <link href="css/home/medium.css" rel="stylesheet" />
+    <link href="css/home/large.css" rel="stylesheet" />
+    <script defer src="javascript/all-pages.js"></script>
+    <script defer src="javascript/home/home.js"></script>
+    <title>WeatherEvents | Home | Shay Hamblin</title>
+    <!--Begin Favicons Section For All Platforms-->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="images/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="images/favicons/favicon.ico" />
+    <meta name="apple-mobile-web-app-title" content="WeatherEvents" />
+    <meta name="application-name" content="WeatherEvents" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <!--End Favicons Section For All Platforms-->
+  </head>
+  <body>
+    <header>
+      <div id="site-logo">
+        <img src="images/site-logo.png" alt="Site Logo" />
+      </div>
+      <div id="site-name">
+        <h1>WeatherEvents</h1>
+        <p>Providing you with the latest on local weather!</p>
+      </div>
+      <hr id="nav-seperation" />
+      <div class="navbar">
+        <ul>
+          <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
+          <li><a id="current-page" href="index.html">Home</a></li>
+          <li><a href="preston.html">Preston</a></li>
+          <li><a href="soda-springs.html">Soda Springs</a></li>
+          <li><a href="fish-haven.html">Fish Haven</a></li>
+          <li><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="home-preston">
+        <a href="preston.html">
+          <div id="preston-content">
+            <h2 id="preston-name"></h2>
+            <h3 id="preston-slogan"></h3>
+            <p>Year Founded: <span id="preston-year"></span></p>
+            <p>Population: <span id="preston-pop"></span></p>
+            <p>Annual Rainfall: <span id="preston-rain"></span></p>
+          </div>
+          <div id="preston-picture">
+            <img id="preston-img" src="images/home/preston.webp" alt="" />
+          </div>
+        </a>
+      </section>
+      <section id="home-soda">
+        <a href="soda-springs.html">
+          <div id="soda-content">
+            <h2 id="soda-name"></h2>
+            <h3 id="soda-slogan"></h3>
+            <p>Year Founded: <span id="soda-year"></span></p>
+            <p>Population: <span id="soda-pop"></span></p>
+            <p>Annual Rainfall: <span id="soda-rain"></span></p>
+          </div>
+          <div id="soda-picture">
+            <img id="soda-img" src="images/home/soda-springs.webp" alt="" />
+          </div>
+        </a>
+      </section>
+      <section id="home-fish">
+        <a href="fish-haven.html">
+        <div id="fish-content">
+          <h2 id="fish-name"></h2>
+          <h3 id="fish-slogan"></h3>
+          <p>Year Founded: <span id="fish-year"></span></p>
+          <p>Population: <span id="fish-pop"></span></p>
+          <p>Annual Rainfall: <span id="fish-rain"></span></p>
+        </div>
+        <div id="fish-picture">
+          <img id="fish-img" src="images/home/fish-haven.webp" alt="" />
+        </div>
+        </a>
+      </section>
+    </main>
+    <footer>
+      <p class="copywrite_year">&copy;</p>
+      <p id="current_year" class="copywrite_year"></p>
+      <p class="copywrite_year">| Shay Hamblin | Lehi, UT | <a href="https://www.byui.edu/online/">BYUI Online</a></p>
+      <br />
+      <p class="current_date">Current Date:</p>
+      <p class="current_date" id="cur_date"></p>
+      <p id="homewireframes"><a href="files/Wireframes-Home.zip">Home Wireframes</a></p>
+    </footer>
+  </body>
+</html>
