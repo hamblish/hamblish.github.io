@@ -1,0 +1,99 @@
+main{
+    text-align: center;
+    background-color: #C4F0FF;
+}
+#hero-with-widget picture{
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+#current-weather-city, #wind-speed, #humidity, #wind-chill, #hero-widget div, #hero-widget .cc-notice{
+    background-color: #75CBE8;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    padding:.25rem;
+    text-align: center;
+    font-weight:600;
+}
+#city-name{
+    text-align: center;
+    background-color: #75CBE8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding:.25rem;
+}
+#contact-information{
+    background-color: #75CBE8;
+    padding: 1rem;
+}
+main h2{
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000 ;
+    max-width: fit-content;
+    padding: .5rem;
+    margin: 2rem auto;
+}
+#library-img-1{
+    display: none;
+}
+.hero-img{
+    min-width:100%;
+    max-width:100%;
+}
+#banner{
+    background-color: #4A4A4A;
+    color:#FFFFFF;
+    text-align: center;
+}
+.cc-notice{
+    font-size: .75rem;
+    font-weight: 500;
+}
+.lighter{
+    font-weight: 300;
+    margin: 0px;
+}
+.stronger{
+    font-weight: 700;
+    margin: 0px;
+    margin-top: .25rem;
+}
+#hero-widget{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#current-weather-city{
+    grid-column: 1/4;
+    
+}
+#temp-data{
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#current-temp{
+    font-size: 1.2rem;
+}
+#current-weather{
+    font-size: .85rem;
+}
+#hero-widget .cc-notice{
+    grid-column: 1/4;
+}
+#temp-data img{
+    margin: auto;
+}
+#forecast-widget{
+    background-color: #75CBE8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    column-gap: .25rem;
+    width:100%;
+}
+#forecast5{
+    width:100%;
+}
+#forecast-city{
+    margin-top: auto;
+    margin-bottom: auto;
+}

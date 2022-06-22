@@ -1,6 +1,6 @@
 {
-    "name": "WeatherEvents",
-    "short_name": "WeatherEvents",
+    "name": "Down the River Forcast",
+    "short_name": "Down the River Forcast",
     "icons": [
         {
             "src": "/weather/images/favicons/android-chrome-192x192.png",
