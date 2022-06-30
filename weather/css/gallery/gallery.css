@@ -1,0 +1,43 @@
+main h1{
+    border-bottom: 4px solid black;
+    padding-bottom: 2px;
+    display: inline-block;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+main{
+    text-align: center;
+    background-color: #C4F0FF;
+}
+main img{
+    max-width: 100%;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    background-color: #75CBE8;
+    margin:0rem;
+}
+#gallery-images{
+    display: grid;
+}
+main img[data-src] {
+    filter: blur(0.2em);
+}
+main div{
+    padding: 2rem;
+}
+main div div{
+    margin: 2rem auto;
+    background-color: #75CBE8;
+    box-shadow: 0 0 25px #333;
+    padding: .3rem;
+    padding-top: 2rem;
+    max-width: 37rem;
+}
+main div div p{
+    background-color: #75CBE8;
+    margin:0rem;
+    margin-top:-4px;
+    width:100%;
+    padding:.5rem 0rem;
+    display: none;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Weather Photo Gallery Page" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <link href="css/all-pages.css" rel="stylesheet">
+    <link href="css/gallery/gallery.css" rel="stylesheet">
+    <link href="css/gallery/medium.css" rel="stylesheet">
+    <link href="css/gallery/large.css" rel="stylesheet">
+    <script defer src="javascript/all-pages.js"></script>
+    <script defer src="javascript/gallery/gallery.js"></script>
+    <title>Down the River Forcast | Weather Gallery | Shay Hamblin</title>
+    <!--Begin Favicons Section For All Platforms-->
+<!--     <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="images/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href="images/favicons/favicon.ico" />
+    <meta name="apple-mobile-web-app-title" content="Down the River Forcast" />
+    <meta name="application-name" content="Down the River Forcast" />
+    <meta name="msapplication-TileColor" content="#2b5797" />
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" /> -->
+    <!--End Favicons Section For All Platforms-->
+  </head>
+  <body>
+    <header>
+      <div id="site-logo">
+        <img src="images/site-logo.png" alt="Site Logo" />
+      </div>
+      <div id="site-name">
+          <h1>Down the River Forcast</h1>
+          <p>Providing you with the latest on local weather!</p>
+      </div>
+      <hr id="nav-seperation">
+      <div class="navbar">
+        <ul>
+            <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="soda-springs.html">Soda Springs</a></li>
+            <li><a href="fish-haven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a id="current-page" href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>Weather Gallery</h1>
+      <div id="gallery-images">
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-snowy-house.webp" alt="Snow blanket on farm road"></picture>
+          <p>Snow blanket on farm road</p>
+        </div>
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-snowy-mountain-house.webp" alt="Large Snowfall on house in mountains"></picture>
+          <p>Large Snowfall on house in mountains</p>
+        </div>
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-storm-valley.webp" alt="Storm Over Valley"></picture>
+          <p>Storm Over Valley</p>
+        </div>
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-thunderstorm.webp" alt="Lightning during the night"></picture>
+          <p>Lightning during the night</p>
+        </div>
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-tracks.webp" alt="Light Fog by train tracks"></picture>
+          <p>Light Fog by train tracks</p>
+        </div>
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-foggy-mountain.webp" alt="Heavy Fog over forest"></picture>
+          <p>Heavy Fog over forest</p>
+        </div>
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-foggy-mountains.webp" alt="Foggy Sunset in gallery-foggy-mountain"></picture>
+          <p>Foggy Sunset in gallery-foggy-mountain</p>
+        </div>
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-green-hill.webp" alt="Cloudy Sunset in green mountain"></picture>
+          <p>Cloudy Sunset in green mountain</p>
+        </div>
+        <div>
+          <picture><img src="images/gallery/placeholder.webp" data-src="images/gallery/gallery-snowy-forest.webp" alt="Snowfall in forest"></picture>
+          <p>Snowfall in forest</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <p class="copywrite_year">&copy;</p>
+        <p id="current_year" class="copywrite_year"></p>
+        <p class="copywrite_year">| Shay Hamblin | Lehi, UT | <a href="https://www.byui.edu/online/">BYUI Online</a></p>
+        <br />
+        <p class="current_date">Current Date:</p>
+        <p class="current_date" id="cur_date"></p>
+    </footer>
+  </body>
+</html>

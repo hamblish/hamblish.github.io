@@ -1,0 +1,8 @@
+@media (min-width: 79.5rem){
+    #gallery-images{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    main div div p{
+        display: block;
+    }
+}
