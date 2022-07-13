@@ -1,0 +1,51 @@
+@media (min-width: 56.3rem) {
+    #five-day-forecast, #upcoming-events{
+        width: 85%;
+        max-width: 60rem;
+        margin:0rem auto;
+    }
+    #hero-widget{
+        height: 0px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        opacity: 0.7;
+    }
+    #hero-with-widget{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-row: 1/2;
+    }
+    #hero-with-widget picture{
+        grid-column: 1/3;
+    }
+    main{
+        text-align: left;
+    }
+    main h2{
+        margin-left:0rem;
+    }
+    #upcoming-events img{
+        float: right;
+    }
+    #library-img-2{
+        display: none;
+    }
+    #library-img-1{
+        display: block;
+        float:right;
+    }
+    #contact-information{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #contact{
+        text-align: center;
+        margin-top: 4rem;
+    }
+    #fish-map{
+        text-align: center;
+    }
+    .hero-img{
+        max-width:100%;
+    }
+}
