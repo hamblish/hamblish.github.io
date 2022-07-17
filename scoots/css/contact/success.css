@@ -1,0 +1,9 @@
+main{
+    text-align: center;
+}
+main h1{
+    width: fit-content;
+    border-bottom: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
