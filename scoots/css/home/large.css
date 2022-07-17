@@ -1,0 +1,6 @@
+@media (min-width: 75.5rem){
+    #forecast-widget{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    
+}

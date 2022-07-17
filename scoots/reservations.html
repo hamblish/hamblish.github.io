@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Begin Head Info-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Scoots Home Page" />
+    <title>~Scoots | Home | Shay Hamblin</title>
+    <!--End Head Info-->
+    <!--Begin Font Data-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <!--End Font Data-->
+    <!--Begin CSS-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="css/all-pages.css" rel="stylesheet" />
+    <link href="css/reservations/reservations.css" rel="stylesheet" />
+    <!--End CSS-->
+    <!--Begin Javascript-->
+    <script defer src="javascript/all_pages.js"></script>
+    <script defer src="javascript/reservations/reservations.js"></script>
+    <!--End Javascript-->
+    <!--Start Favicons Section-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/scoots/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/scoots/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/scoots/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/scoots/images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/scoots/images/favicons/safari-pinned-tab.svg" color="#4f5d73">
+    <link rel="shortcut icon" href="/scoots/images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="~Scoots">
+    <meta name="application-name" content="~Scoots">
+    <meta name="msapplication-TileColor" content="#4f5d73">
+    <meta name="msapplication-config" content="/scoots/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#4f5d73">
+    <!--End Favicons Section-->
+    <!--Add Font Awesome Icons by Cloudfare-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--End Font Awesome Icons by Cloudfar-->
+</head>
+<body>
+    <header>
+        <div id="site-logo">
+          <img src="images/logo.webp" alt="Site Logo" />
+        </div>
+        <div id="site-name">
+          <h1>~Scoots</h1>
+          <p>Your Personal Ride Around Cozumel</p>
+        </div>
+        <hr id="nav-seperation" />
+        <div class="navbar">
+          <ul>
+            <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="rentals.html">Rentals</a></li>
+            <li><a id="current-page" href="reservations.html">Reservations</a></li>
+            <li><a href="tours.html">Tours</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </header>
+    <main>
+      <h2>Reserve Your Scooter</h2>
+      <form method="get" action="reservation-success.html">
+        <fieldset>
+          <legend>Your Information</legend>
+          <label class="top">*Full Name:<input type="text" name="name" minlength="3" required /></label>
+          <label class="top">*Country of Origin:<input type="text" name="country" minlength="4" required /></label>
+          <label class="top">*Email:<input type="email" name="email" placeholder="email@email.com" required /></label>
+          <label class="top">*Phone Number:<input type="tel" name="phone" placeholder="1235556789" pattern="[0-9]{10,11}" required/></label>
+          <label class="sbs"><input type="checkbox" id="cruise" name="cruise" onclick="displayRemoveCruiseLine()"/> Select for Cruise Lines</label>
+          <label id="cruise-line" class="top">*Cruise Line:<input id="cruise-line-name" type="text" name="cruise-line" minlength="3"/></label>
+        </fieldset>
+        <fieldset>
+          <legend>Scooter Type</legend>
+          <label class="top">Scooter Model:<select id="scooter-model" name="scooter-model" required>
+            <option value="" selected="selected" disabled>Select Scooter ...</option>
+            <option value="metro">Honda Metro Scooter</option>
+            <option value="dio">Honda Dio Scooter</option>
+            <option value="pcx150">Honda PCX150 Scooter</option>
+            <option value="pioneer">Honda Pioneer ATV</option>
+            <option value="2door">Jeep Wrangler—2 Door</option>
+            <option value="4door">Jeep Wrangler—4 Door with A/C</option>
+          </select></label>
+          <label class="top">Number of Scooters:<input type="number" name="scooter-count" required></label>
+        </fieldset>
+        <fieldset>
+          <legend>Location Select</legend>
+          <div>Select Location for Dropoff / Pickup:</div>
+          <label class="sbs"><input type="radio" name="location-select" value="main" required onclick="displayRemoveOther()"> Playa del Carmen-Cozumel Ferry Dock</label>
+          <label class="sbs"><input type="radio" name="location-select" value="secondary" required onclick="displayRemoveOther()"> Puerta Maya Cruise Ship Terminal</label>
+          <label class="sbs"><input id="otherLoc" type="radio" name="location-select" value="other" required onclick="displayRemoveOther()"> Other</label>
+          <label id="otherAddress" class="top">*Other Dropoff Location:<input id="streetAddress" type="text" name="street-address" minlength="5"/></label>
+        </fieldset>
+        <fieldset>
+          <legend>Rental Period</legend>
+          <div>Rental Day Length:</div>
+          <label class="sbs"><input id="half-day" type="radio" name="rental-type" value="half" required> Half-Day</label>
+          <label class="sbs"><input id="full-day" type="radio" name="rental-type" value="full" required> Full-Day</label>
+          <label class="top">Rental Start Date<input id="rentalStartDate" type="date" name="rental-start" required></label>
+          <label class="top">Rental End Date<input id="rentalEndDate" type="date" name="rental-end" required></label>
+        </fieldset>
+        <fieldset>
+          <legend>Terms and Conditions</legend>
+          <div>Please Mark That You Agree to the Following:</div>
+          <section><h2>Terms and Conditions of Scooter Rental</h2><hr><h3>For ~Scoots LLC.</h3><ul>
+            <li>
+              A $50 security deposit is required to confirm reservations.
+            </li>
+            <li>
+              A valid drivers license is required in hand at time of rental.
+            </li>
+            <li>
+              No one under 12 years of age is allowed to ride on the scooters.
+            </li>
+            <li>
+              Fuel charge not included.
+            </li>
+            <li>
+              Unlimited mileage.
+            </li>
+            <li>
+              Liability insurance is free of charge.
+            </li>
+            <li>
+              Reservations rate requires 24 hour prior notification.
+            </li>
+            <li>
+              Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.
+            </li>
+            <li>
+              Payment via Google Pay, cash, credit card, debit card, or PayPal.
+            </li>
+            <li>
+              Rentals may be returned to either location.
+            </li>
+          </ul></section>
+          <label class="sbs"><input type="checkbox" name="termsandconditions" required/> I Agree to the Terms and Conditions Outlined Above</label>
+        </fieldset>
+        <input type="submit" value="Reserve Scooter" class="submitBtn">
+      </form>
+    </main>
+    <footer>
+        <p class="copywrite_year">&copy;</p>
+        <p id="current_year" class="copywrite_year"></p>
+        <p class="copywrite_year">| Shay Hamblin | Lehi, UT | <a href="https://www.byui.edu/online/">BYUI Online</a> | <a href="attributions.html">Attributions</a></p>
+        <hr id="footer-seperation">
+      <div id="social-icons"><a href="https://www.facebook.com/" class="fa fa-facebook">&#8203;<span class="visually-hidden">Facebook Social Link</span></a><a href="https://twitter.com/" class="fa fa-twitter"><span>&#8203;<span class="visually-hidden">Twitter Social Link</span></span></a><a href="https://www.youtube.com/" class="fa fa-youtube"><span>&#8203;</span><span class="visually-hidden">Youtube Soical Link</span></a></div>
+    </footer>
+</body>
+</html>

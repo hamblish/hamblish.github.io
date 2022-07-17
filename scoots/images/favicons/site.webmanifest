@@ -1,0 +1,20 @@
+{
+    "name": "~Scoots",
+    "short_name": "~Scoots",
+    "icons": [
+        {
+            "src": "/scoots/images/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/scoots/images/favicons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#4f5d73",
+    "background_color": "#4f5d73",
+    "start_url": "https://hamblish.github.io/scoots/index.html",
+    "display": "standalone"
+}

@@ -1,0 +1,57 @@
+main{
+    text-align: center;
+}
+#rental-heading{
+display: inline-block;
+border-bottom: 3px solid black;
+padding:1rem 2rem;
+margin-left: auto;
+margin-right: auto;
+}
+#additional-information{
+    list-style-position: inside 
+}
+.rentalCard{
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: #77C2AF;
+    border-radius: 1rem;
+    max-width: 31.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rentalCard img{
+    width:100%;
+}
+.rentalCard table{
+    padding: .5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+main div section:hover{
+    box-shadow: 0 0 50px #4a4a4a;
+}
+.rentalDiv a{
+    background-color: #4F5D73;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.rentalDiv a:hover{
+    background-color: #282F3A;
+    color: #ffffff;
+}
+.rentalDiv a:active{
+    background-color: #000000;
+    color: #ffffff;
+}
+.rentalDiv{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+}

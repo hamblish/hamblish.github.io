@@ -1,0 +1,104 @@
+main{
+    text-align: center;
+}
+form{
+    text-align: left;
+}
+main a{
+    color: #000000;
+}
+main h2{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid black;
+    display: inline-block;
+}
+main h1{
+    border-bottom: 2px solid black;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+#map img{
+    max-width: 100%;
+}
+/*Form Styling*/
+form fieldset{
+    margin:2rem 0;
+    border:1px solid #000000;
+    border-radius: 10px;
+    padding:.5rem 2%;
+}
+
+form legend{
+    color:#000000;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+form label.top, form div, form label.toprange{
+    display: block;
+    padding-top: 2rem;
+    color:#000000;
+    font-size: .8rem;
+}
+form label.top input, form label.top select, form label.top textarea{
+    appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #000000;
+    border-radius: 4px;
+    padding: .75rem;
+    color:#000000;
+    width: 85%;
+    max-width: 20rem;
+    background-color: #77C2AF;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color:#000000;
+}
+form input.submitBtn{
+    border:none;
+    background-color: #4F5D73;
+    color:#ffffff;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width:96%;
+    max-width: 20rem;
+}
+
+form label.top input:required{
+    border-left:#c50404 solid 6px;
+}
+
+form label.top input:required:valid{
+    border-left: green solid 6px;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #000000;
+  background-color: #77C2AF;
+}
+::placeholder {
+    color: #282F3A ;
+}
+::-webkit-input-placeholder{
+    color:#282F3A ;
+}  
+:-ms-input-placeholder {
+    color: #282F3A ;
+}
+  
+::-ms-input-placeholder {
+    color: #282F3A ;
+}

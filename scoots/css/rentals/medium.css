@@ -1,0 +1,13 @@
+@media (min-width: 37.5rem){
+    #rental-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+@media (min-width: 46.5rem){
+    .rentalDiv{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 0rem;
+    }
+}

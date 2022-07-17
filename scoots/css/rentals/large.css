@@ -1,0 +1,5 @@
+@media (min-width: 75.5rem){
+    #rental-cards{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

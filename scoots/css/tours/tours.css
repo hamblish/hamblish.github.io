@@ -1,0 +1,36 @@
+main{
+    text-align: center;
+}
+main img{
+    max-width: 100%;
+}
+#main-header{
+    margin-bottom: 4rem;
+}
+#card1{
+    margin-bottom: 3rem;
+}
+#card2{
+    margin-bottom: 3rem;
+}
+#card3-text{
+    margin-bottom: 3rem;
+}
+h3{
+    border-bottom: 2px solid #000000;
+    width: fit-content;
+    padding-left: .25rem;
+    padding-right: .25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#small-hr{
+    background-color: #000000;
+    border-color: #000000;
+}
+#banner{
+    width: calc(100% + 4rem);
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-top: -2rem;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--Begin Head Info-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Scoots Home Page" />
+    <title>~Scoots | Home | Shay Hamblin</title>
+    <!--End Head Info-->
+    <!--Begin Font Data-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <!--End Font Data-->
+    <!--Begin CSS-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link href="css/all-pages.css" rel="stylesheet" />
+    <link href="css/home/home.css" rel="stylesheet" />
+    <link href="css/home/medium.css" rel="stylesheet" />
+    <link href="css/home/large.css" rel="stylesheet" />
+    <!--End CSS-->
+    <!--Begin Javascript-->
+    <script defer src="javascript/all_pages.js"></script>
+    <script defer src="javascript/home/home.js"></script>
+    <!--End Javascript-->
+    <!--Start Favicons Section-->
+    <link rel="apple-touch-icon" sizes="180x180" href="/scoots/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/scoots/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/scoots/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="/scoots/images/favicons/site.webmanifest" />
+    <link rel="mask-icon" href="/scoots/images/favicons/safari-pinned-tab.svg" color="#4f5d73" />
+    <link rel="shortcut icon" href="/scoots/images/favicons/favicon.ico" />
+    <meta name="apple-mobile-web-app-title" content="~Scoots" />
+    <meta name="application-name" content="~Scoots" />
+    <meta name="msapplication-TileColor" content="#4f5d73" />
+    <meta name="msapplication-config" content="/scoots/images/favicons/browserconfig.xml" />
+    <meta name="theme-color" content="#4f5d73" />
+    <!--End Favicons Section-->
+    <!--Add Font Awesome Icons by Cloudfare-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--End Font Awesome Icons by Cloudfar-->
+  </head>
+  <body>
+    <header>
+      <div id="site-logo">
+        <img src="images/logo.webp" alt="Site Logo" />
+      </div>
+      <div id="site-name">
+        <h1>~Scoots</h1>
+        <p>Your Personal Ride Around Cozumel</p>
+      </div>
+      <hr id="nav-seperation" />
+      <div class="navbar">
+        <ul>
+          <li id="menu-icon"><a href="#" onclick="togglemenu()">Menu &#9776;</a></li>
+          <li><a id="current-page" href="index.html">Home</a></li>
+          <li><a href="rentals.html">Rentals</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <a href="rentals.html"><img id="banner" alt="Scooter on cobblestone path" src="images/home/banner.webp" /></a>
+      <br><h2 class="headings">Contact Information</h2>
+      <div id="contact">
+        <div id="location-1">
+          <h2>1. Main Location | Playa del Carmen-Cozumel Ferry Dock</h2>
+          <address>
+            <p>Address: <a href="https://goo.gl/maps/pczbmGEnaAALmHdq7">Playa del Carmen-Cozumel Ferry Dock</a></p>
+            <p>Email: <a href="mailto:scoots_north@notreal.com">scoots_north@notreal.com</a><br></p>
+            <p>Telephone: <a href="tel:+521234567890">+52 (123) 456-7890</a></p>
+          </address>
+        </div>
+        <div id="location-2">
+          <h2>2. Additional Location | Puerta Maya Cruise Ship Terminal</h2>
+          <address>
+            <p>Address: <a href="https://goo.gl/maps/eNq3mFVAtX1w7LYi8">Puerta Maya Cruise Ship Terminal</a></p>
+            <p>Email: <a href="mailto:scoots_south@notreal.com">scoots_south@notreal.com</a><br></p>
+            <p>Telephone: <a href="tel:+521234567891">+52 (123) 456-7891</a></p>
+          </address>
+        </div>
+      </div>
+      <h2 class="headings">Our Rentals</h2>
+      <div id="scooters"></div>
+      <div id="weather">
+        <div id="current">
+          <h2 class="headings">Current Weather</h2>
+          <div id="current-weather">
+            <div id="current-weather-city">
+              <p class="stronger">COZUMEL</p>
+              <p class="lighter">MEXICO</p>
+            </div>
+            <div id="temp-data"></div>
+            <p id="wind-speed"></p>
+            <p id="humidity"></p>
+            <p id="wind-chill"></p>
+            <p class="cc-notice">*Current Weather Data Provided by OpenWeatherMap</p>
+          </div>
+        </div>
+        <div id="forecast5">
+          <h2 class="headings">5 Day Forecast</h2>
+          <div id="forecast-widget"></div>
+          <p class="cc-notice">*5 Day Forecast Data Provided by OpenWeatherMap</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="copywrite_year">&copy;</p>
+      <p id="current_year" class="copywrite_year"></p>
+      <p class="copywrite_year">| Shay Hamblin | Lehi, UT | <a href="https://www.byui.edu/online/">BYUI Online</a> | <a href="attributions.html">Attributions</a></p>
+      <hr id="footer-seperation" />
+      <div id="social-icons"><a href="https://www.facebook.com/" class="fa fa-facebook">&#8203;<span class="visually-hidden">Facebook Social Link</span></a><a href="https://twitter.com/" class="fa fa-twitter"><span>&#8203;<span class="visually-hidden">Twitter Social Link</span></span></a><a href="https://www.youtube.com/" class="fa fa-youtube"><span>&#8203;</span><span class="visually-hidden">Youtube Soical Link</span></a></div>
+    </footer>
+  </body>
+</html>
